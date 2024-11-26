@@ -4,12 +4,12 @@
 The Pharmacy Inventory Management System is a relational database-driven solution designed to streamline inventory tracking, prescription management, sales, purchases, and supplier relations for a pharmacy.
 
 ## Features
-Customer Management: Tracks patient details and purchase history.
-Drug Inventory Management: Monitors stock levels, expiry dates, and suppliers.
-Prescription Handling: Links doctors, patients, and prescribed drugs.
-Sales and Purchases: Logs transactions and supplier information.
-Reports and Analytics: Provides insights into sales, stock levels, and supplier performance.
-Data Security: Ensures data consistency and integrity.
+* Customer Management: Tracks patient details and purchase history.
+* Drug Inventory Management: Monitors stock levels, expiry dates, and suppliers.
+* Prescription Handling: Links doctors, patients, and prescribed drugs.
+* Sales and Purchases: Logs transactions and supplier information.
+* Reports and Analytics: Provides insights into sales, stock levels, and supplier performance.
+* Data Security: Ensures data consistency and integrity.
 
 ## Prerequisites
 Before setting up the system, ensure the following are installed:
@@ -22,18 +22,20 @@ Setup Instructions
 ### 1. Clone or Download the Project
 If using Git:
 
-bash
+``` bash
 
 git clone https://github.com/Eugene-Kabeyi/pharmacy.git
+```
 cd pharmacy-inventory-system
 Or manually download the project and unzip it.
 
 ### 2. Set Up the Database
 Open MySQL Workbench or your preferred database client.
 Create a new database:
-sql
-Copy code
+``` sql
+
 CREATE DATABASE pharmacy_db;
+```
 Import the SQL schema and data:
 Locate the pharmacy_system.sql file in the project directory.
 Run the file to set up tables, triggers, views, and stored procedures:
@@ -58,14 +60,16 @@ EMPLOYEE
 Ensure that all stored procedures, triggers, and views are also imported successfully.
 ### 4. Test the System
 Insert test data if none exists. Use the provided test_data.sql file to populate tables with sample entries:
-bash
-Copy code
+```bash
+
 mysql -u your_username -p pharmacy_db < test_data.sql
+```
 Run basic queries to verify the relationships between tables:
-sql
-Copy code
+``` sql
+
 SELECT * FROM DRUG;
 SELECT * FROM PRESCRIBES;
+```
 ### 5. Customize Configuration
 If needed, modify configuration files for your local environment (e.g., database connection details in an application).
 
