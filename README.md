@@ -23,7 +23,7 @@ If using Git:
 
 bash
 Copy code
-git clone https://github.com/your-repo/pharmacy-inventory-system.git
+git clone https://github.com/Eugene-Kabeyi/pharmacy.git
 cd pharmacy-inventory-system
 Or manually download the project and unzip it.
 
