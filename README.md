@@ -39,9 +39,14 @@ CREATE DATABASE pharmacy_db;
 Import the SQL schema and data:
 Locate the pharmacy_system.sql file in the project directory.
 Run the file to set up tables, triggers, views, and stored procedures:
-bash
-Copy code
-mysql -u your_username -p pharmacy_db < pharmacy_system.sql
+``` bash
+https://github.com/Eugene-Kabeyi/pharmacy/blob/main/CRUD%20operations.sql
+https://github.com/Eugene-Kabeyi/pharmacy/blob/main/advanced%20query.sql
+https://github.com/Eugene-Kabeyi/pharmacy/blob/main/reports.sql
+https://github.com/Eugene-Kabeyi/pharmacy/blob/main/triggers.sql
+https://github.com/Eugene-Kabeyi/pharmacy/blob/main/table%20creation.sql
+https://github.com/Eugene-Kabeyi/pharmacy/blob/main/stored_procedure.sql
+```
 ### 3. Verify the Setup
 Open the database and check for the following tables:
 ``` bash
@@ -74,10 +79,10 @@ SELECT * FROM PRESCRIBES;
 If needed, modify configuration files for your local environment (e.g., database connection details in an application).
 
 ## Usage
-1 Advanced Queries: Run pre-written SQL queries in the queries.sql file for analytics and reporting.
-2 Triggers: Automatic execution of defined actions (e.g., stock updates).
-3 Views: Simplify reporting by querying pre-defined views.
+1. Advanced Queries: Run pre-written SQL queries in the queries.sql file for analytics and reporting.
+2. Triggers: Automatic execution of defined actions (e.g., stock updates).
+3. Views: Simplify reporting by querying pre-defined views.
 ## Troubleshooting
-Missing Tables or Data: Re-import the SQL schema and test data files.
-Connection Issues: Verify MySQL server is running and credentials are correct.
-Error Messages: Refer to the SQL error log or contact the developer.
+* Missing Tables or Data: Re-import the SQL schema and test data files.
+* Connection Issues: Verify MySQL server is running and credentials are correct.
+* Error Messages: Refer to the SQL error log or contact the developer.
