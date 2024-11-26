@@ -1,5 +1,5 @@
-# pharmacy
-Pharmacy Inventory Management System
+#Pharmacy Inventory Management System
+
 Overview
 The Pharmacy Inventory Management System is a relational database-driven solution designed to streamline inventory tracking, prescription management, sales, purchases, and supplier relations for a pharmacy.
 
