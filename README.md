@@ -42,7 +42,7 @@ Copy code
 mysql -u your_username -p pharmacy_db < pharmacy_system.sql
 ### 3. Verify the Setup
 Open the database and check for the following tables:
-*** bash
+``` bash
 CUSTOMER
 DRUG_MANUFACTURER
 DOCTOR
@@ -54,7 +54,7 @@ DRUG
 SUPPLIES
 DISTRIBUTOR
 EMPLOYEE
-***
+```
 Ensure that all stored procedures, triggers, and views are also imported successfully.
 ### 4. Test the System
 Insert test data if none exists. Use the provided test_data.sql file to populate tables with sample entries:
