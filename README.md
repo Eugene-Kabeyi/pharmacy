@@ -1,16 +1,17 @@
 # Pharmacy Inventory Management System
 
-Overview
+## Overview
 The Pharmacy Inventory Management System is a relational database-driven solution designed to streamline inventory tracking, prescription management, sales, purchases, and supplier relations for a pharmacy.
 
-Features
+## Features
 Customer Management: Tracks patient details and purchase history.
 Drug Inventory Management: Monitors stock levels, expiry dates, and suppliers.
 Prescription Handling: Links doctors, patients, and prescribed drugs.
 Sales and Purchases: Logs transactions and supplier information.
 Reports and Analytics: Provides insights into sales, stock levels, and supplier performance.
 Data Security: Ensures data consistency and integrity.
-Prerequisites
+
+## Prerequisites
 Before setting up the system, ensure the following are installed:
 
 MySQL (version 8.0 or later)
@@ -18,7 +19,7 @@ MySQL Workbench or any other database client
 Git (optional, for version control)
 Text Editor (e.g., VSCode, Sublime Text)
 Setup Instructions
-1. Clone or Download the Project
+### 1. Clone or Download the Project
 If using Git:
 
 bash
@@ -27,7 +28,7 @@ git clone https://github.com/Eugene-Kabeyi/pharmacy.git
 cd pharmacy-inventory-system
 Or manually download the project and unzip it.
 
-2. Set Up the Database
+### 2. Set Up the Database
 Open MySQL Workbench or your preferred database client.
 Create a new database:
 sql
@@ -39,7 +40,7 @@ Run the file to set up tables, triggers, views, and stored procedures:
 bash
 Copy code
 mysql -u your_username -p pharmacy_db < pharmacy_system.sql
-3. Verify the Setup
+### 3. Verify the Setup
 Open the database and check for the following tables:
 CUSTOMER
 DRUG_MANUFACTURER
@@ -53,7 +54,7 @@ SUPPLIES
 DISTRIBUTOR
 EMPLOYEE
 Ensure that all stored procedures, triggers, and views are also imported successfully.
-4. Test the System
+### 4. Test the System
 Insert test data if none exists. Use the provided test_data.sql file to populate tables with sample entries:
 bash
 Copy code
@@ -63,14 +64,14 @@ sql
 Copy code
 SELECT * FROM DRUG;
 SELECT * FROM PRESCRIBES;
-5. Customize Configuration
+### 5. Customize Configuration
 If needed, modify configuration files for your local environment (e.g., database connection details in an application).
 
-Usage
+## Usage
 Advanced Queries: Run pre-written SQL queries in the queries.sql file for analytics and reporting.
 Triggers: Automatic execution of defined actions (e.g., stock updates).
 Views: Simplify reporting by querying pre-defined views.
-Troubleshooting
+## Troubleshooting
 Missing Tables or Data: Re-import the SQL schema and test data files.
 Connection Issues: Verify MySQL server is running and credentials are correct.
 Error Messages: Refer to the SQL error log or contact the developer.
