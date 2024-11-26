@@ -23,7 +23,7 @@ Setup Instructions
 If using Git:
 
 bash
-Copy code
+
 git clone https://github.com/Eugene-Kabeyi/pharmacy.git
 cd pharmacy-inventory-system
 Or manually download the project and unzip it.
@@ -42,7 +42,7 @@ Copy code
 mysql -u your_username -p pharmacy_db < pharmacy_system.sql
 ### 3. Verify the Setup
 Open the database and check for the following tables:
-***bash
+*** bash
 CUSTOMER
 DRUG_MANUFACTURER
 DOCTOR
