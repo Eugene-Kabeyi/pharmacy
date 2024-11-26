@@ -74,9 +74,9 @@ SELECT * FROM PRESCRIBES;
 If needed, modify configuration files for your local environment (e.g., database connection details in an application).
 
 ## Usage
-Advanced Queries: Run pre-written SQL queries in the queries.sql file for analytics and reporting.
-Triggers: Automatic execution of defined actions (e.g., stock updates).
-Views: Simplify reporting by querying pre-defined views.
+1 Advanced Queries: Run pre-written SQL queries in the queries.sql file for analytics and reporting.
+2 Triggers: Automatic execution of defined actions (e.g., stock updates).
+3 Views: Simplify reporting by querying pre-defined views.
 ## Troubleshooting
 Missing Tables or Data: Re-import the SQL schema and test data files.
 Connection Issues: Verify MySQL server is running and credentials are correct.
